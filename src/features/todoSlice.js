@@ -20,8 +20,8 @@ export const todoSlice = createSlice({
                 return { items: array }
             }
         },
-        cleartodo: () => {
-            return { todo: [] }
+        clearTodo: () => {
+            return { items: [] }
         }
     }
 })

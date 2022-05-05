@@ -16,6 +16,7 @@ function Todo() {
 
     return (
         <div>
+            <h2>To-Do List</h2>
             <form onSubmit={(e) => submitForm(e)}>
                 <input type="text" onChange={(e) => setInput(e.target.value)} />
                 <button type="submit">Submit</button>
@@ -27,5 +28,7 @@ function Todo() {
         </div>
     )
 }
+
+
 
 export default Todo
